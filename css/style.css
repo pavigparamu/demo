@@ -1,0 +1,594 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 35px;
+    background-color: black;
+    margin: 0%;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+}
+.top{
+    background-image: url('..//img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+.layertop{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.leftimg{
+    float: left;
+    height: 130px;
+    padding: 20px 0px 10px 170px;
+}
+.nav-bar{
+    float: right;
+    width: 70%;
+}
+.rightnav{
+    color: white;
+    padding: 0px 10px;
+    margin: 30px 0px 40px 70px;
+}
+.rightnav ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.rightnav i{ 
+    color: #ECC311; 
+    font-size: 15px;
+    margin: 0px 10px;
+}
+.white {
+    margin: 0%;
+    padding: 0%;
+}
+.white i{
+    color: white;
+    background-color: #E8C30A;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.yellow {
+    margin: 0%;
+    padding: 0%;
+}
+.yellow  i{
+    color: #E8C30A;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.rightnav i{
+    margin: 0%;
+    padding: 0%;
+}
+.rightnav li{
+    float: left;
+    text-decoration: none;
+    padding: 0px  20px 0px 10px;
+    border-right: 1px solid rgba(94, 94, 94, 0.651);
+}
+.rightnav a{
+    padding: 3px 5px;
+    margin: 2px;
+    border-radius: 10px;  
+}
+.face i{
+    margin: 0%;
+    padding: 5px 7px;
+    border-radius: 25px;
+    color: white;
+    background-color: #ECC311;
+}
+.face i:hover{
+    background-color: white;
+    color: black;
+}
+.face a:last-child:hover{
+    background-color: white;
+    color: black;
+}
+.face a:last-child{
+    background-color:#ECC311;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 5px;
+}
+.rightnav li:last-child{
+    border: none;
+    margin-left: 10px;
+}
+.rightnav li:first-child{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 0%;
+}
+.secondnav li:last-child{
+    border: none;
+}
+.secondnav{
+    color: white;
+    padding: 15px 0px ;
+    margin: 10px 0px 0px 70px;
+    text-transform: uppercase;
+}
+.secondnav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.secondnav li{
+    display: inline;
+    border-right: 1px solid rgba(94, 94, 94, 0.651);
+    padding: 0px 10px;
+    margin: 10px 0px;
+    letter-spacing: 1px;
+}
+.secondnav li a{
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.secondnav li a:hover{
+    color: #ECC311;
+    padding:  10px;
+    border-bottom: 4px solid #ECC311;
+}
+.content{
+    padding-top: 150px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+.bigtext{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 5px 110px 30px 140px;
+}
+.centertag{
+    text-align: center;
+    padding: 60px 0px 150px 60px;
+}
+.apply{
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px 60px;
+    background-color: #ECC311;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+}
+.apply:hover{
+    background-color: white;
+    color: black;
+}
+.credit:hover{
+    background-color: white;
+    color: black;
+}
+.credit {
+    width: 30%;
+    border-radius: 5px;
+    padding: 18px 58px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+}
+.imgbottom{
+    padding: 0px 300px;
+    text-align: center;
+}
+.imgbottom p{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0%;
+}
+.temptwo{
+    background-color: #ffffff;
+    background-image: url('..//img/whyus-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin: 0%;
+    padding-bottom: 80px;
+}
+.temptwo h2{
+    padding-top: 50px;
+    color: #032C54;
+    font-size: 50px;
+    text-align: center;
+    margin: 0%;
+}
+.temptwo p{
+    text-align: center;
+    color: #848484;
+    font-size: 17px;
+    padding: 10px 300px;
+    margin-bottom: 40px;
+    line-height: 30px;
+}
+.temptwo a{
+    text-align: center;
+    background-color: #ECC311;
+    padding: 20px 30px;
+    margin-left: 550px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.temptwo a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.tempthree{
+    background-image: url('..//img/loans-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0px 130px ;
+    text-align: center;
+    color: white;
+}
+.tempthree h1{
+    color: white;
+    font-size: 50px;
+    padding: 50px 0px;
+    margin: 0%;
+    text-align: center;
+}
+.typelef{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    margin:  0%;
+}
+.tempthree li{
+    background-image: url('..//img/bullet.png');
+    background-repeat: no-repeat;
+    background-size: 60px;
+    width: 100%;
+    height: 130px;
+}
+.typeright{
+    float: right;
+    width: 50%;
+}
+.tempthree ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.tempthree h3{
+    font-size: 24px;
+    margin: 0%;
+    padding-left: 75px;
+    text-align: left;
+}
+.tempthree p{
+    padding:0px 10px 20px 75px;
+    text-align: left;
+    font-size: 17px;
+}
+.tempfour{
+    background-image: url('..//img/consultation-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:100px 100px 50px 150px;
+    color: white;
+    margin: 0%
+}
+.phoneicon{
+    float: left;
+    width: 100px;
+    padding-top: 30px;
+}
+.phocon{
+    float: left;
+    width: 60%;
+    padding: 10px 30px;
+}
+.tempfour h2{
+    font-size: 30px;
+    margin: 0%;
+    letter-spacing: 3px;
+}
+.tempfour p{
+    font-size: 15px;
+    margin: 0%;
+    width: 70%;
+}
+.tempfour h3{
+    font-size: 60px;
+    margin: 0%;
+}
+.scanhere{
+    float: left;
+    width: 20%;
+}
+.scanhere img{
+    width: 160px;
+    border: 10px solid white;
+}
+.scanhere p{
+    font-size: 20px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.tempfive{
+    text-align: center;
+    background-color: white;
+    padding: 0px 10px 0px 200px;
+}
+.tempfive h5{
+    color:#dbdada;
+    font-size: 12px;
+    margin: 0%;
+    padding: 50px 0px 0px 400px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.tempfive p{
+    margin: 0%;
+    color: #6E7072;
+    font-size: 15px;
+    padding-top: 20px;
+    width: 100%;
+}
+.tempfive h2{
+    font-size: 50px;
+    color: #243644;
+    margin: 0%;
+    text-align: left;
+    padding-left: 200px;
+}
+.onecustom{
+    float: left;
+    width: 25%;
+    border-radius: 100%;
+    border: 3px solid white;
+    box-shadow: 0px 0px 15px 0px #a2a3a3;
+    margin-top: 35px;
+}
+.customone{
+    float: left;
+    width: 60%;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.customone i{
+    padding-left: 5px;
+    margin-right: 5px;
+    color: #E8C30A;
+}
+.customone p{
+    margin:0% ;
+    padding: 10px;
+}
+.customone  b{
+    color:#243767;
+}
+.customtwo p{
+    margin: 0%;
+    padding: 0%;
+}
+.customtwo{
+    float: right;
+    width: 50%;
+}
+.customer{
+    position: relative;
+    float: left;
+    width: 45%;
+    padding: 50px 0px 50px 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+.quotate{
+    position:absolute;
+    left: 25px;
+    top: 80px;
+    background-color: #E8C30A;
+    padding: 6px 8px;
+    border-radius: 28px;
+}
+.quotate i{
+    color: white;
+    font-size: 20px;
+}
+.layerone{
+    background-color: #F5F9FA;
+    padding:0px  120px 20px;
+}
+.layerone h5{
+    color:#243767;
+    font-size: 15px;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.colone{
+    float: left;
+    width: 30%;
+    padding: 50px;
+}
+.colone i{
+    color: #1C3464;
+    font-size: 25px; 
+    padding: 5px; 
+}
+.colone i:hover{
+    background-color: white;
+    color: black;
+}
+.colone p{
+    font-size: 12px;
+    color: #848484;
+    text-align: center;
+}
+.colone img{
+    height: 70px;
+    margin-left: 25px;
+}
+.icon{
+   padding-left: 55px;
+}
+.coltwo{
+    float: left;
+    width: 15%;
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
+}
+.coltwo ul{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+.coltwo li{
+    text-decoration: none;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.coltwo h5{
+    padding: 0%;
+    text-align: left;
+}
+.coltwo p{
+    font-size: 12px;
+}
+.coltwo a:hover{
+    color:black;
+}
+.layerone a{
+    text-decoration: none;
+    color: #6E7072;
+}
+.colthree{
+    float: left;
+    width: 25%;
+    text-align: left;
+    padding: 20px;
+    margin-top: 30px;
+}
+.colthree ul{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+.colthree li{
+    text-decoration: none;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.colthree a:hover{
+    color: black;
+}
+.colthree p{
+    margin: 0%;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.colthree h5{
+    padding: 0%;
+    text-align: left;
+}
+.colfour h5{
+    padding: 0%;
+    text-align: left;
+}
+.colfour{
+    float: right;
+    width: 25%;
+    text-align: left;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.colfour i{
+    padding: 5px;
+    color: #243767;
+}
+.colfour ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.colfour li{
+    list-style-type: none;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+.colfour p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 12px;
+    color: #848484;
+}
+.lefticon{
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+.lefticon i{
+    border: 1px solid #BABBBD;
+    font-size: 12px;
+    border-radius: 30px;
+}
+.lefticon i:hover{
+    color: white;
+    background-color: black;
+}
+.rightdetail{
+    float:left;
+    width: 200px;
+    margin: 0px 0px 7px 5px;
+    padding-left: 5px;
+} 
+.rightdetail p{
+    margin: 0%;
+    padding: 2px;
+}
+.laytwo{
+    background-color: #F5F9FA;
+}
+.laytwo p{
+    border-top: 1px solid #dbdbdb;
+    font-size: 12px;
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+    color: #6E7072;
+}
+.bigleft {
+    float: left;
+    margin-top: 10px;
+}
+.bigleft i{
+    border: 1px solid #BABBBD;
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+}
+.bigleft i:hover{
+    color: white;
+    background-color: black;
+}
